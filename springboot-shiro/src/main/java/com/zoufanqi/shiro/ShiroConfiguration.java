@@ -23,7 +23,10 @@ import java.util.concurrent.TimeUnit;
 @Configuration
 public class ShiroConfiguration {
 
-    @Bean
+    /**
+     * 先放这
+     */
+//    @Bean
     public static DefaultAdvisorAutoProxyCreator getDefaultAdvisorAutoProxyCreator() {
         DefaultAdvisorAutoProxyCreator creator = new DefaultAdvisorAutoProxyCreator();
         /**
